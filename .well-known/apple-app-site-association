@@ -1,0 +1,26 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "B3K83B7E6B.com.comarch.ccb.alior" ],
+             "components": [
+               {
+                  "#": "no_universal_links",
+                  "exclude": true,
+                  "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+               },
+               {
+                  "/": "/sso/challenge/*",
+                  "comment": "Matches any URL whose path starts with /sso/challenge/"
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": []
+   },
+    "appclips": {
+        "apps": []
+    }
+}
